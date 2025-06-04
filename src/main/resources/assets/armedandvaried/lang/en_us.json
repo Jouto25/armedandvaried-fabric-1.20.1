@@ -1,0 +1,25 @@
+{
+  "item.armedandvaried.copper_gold_mass": "Copper Gold Mass",
+  "item.armedandvaried.leather_scrap": "Leather Scrap",
+
+  "item.armedandvaried.rose_gold_ingot": "Rose Gold Ingot",
+  "item.armedandvaried.rose_gold_nugget": "Rose Gold Nugget",
+
+  "item.armedandvaried.rose_gold_apple": "Rose Gold Apple",
+  "item.armedandvaried.rose_gold_carrot": "Rose Gold Carrot",
+
+  "block.armedandvaried.rose_gold_block": "Rose Gold Block",
+
+  "item.armedandvaried.rose_gold_axe": "Rose Gold Axe",
+  "item.armedandvaried.rose_gold_hoe": "Rose Gold Hoe",
+  "item.armedandvaried.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.armedandvaried.rose_gold_shovel": "Rose Gold Shovel",
+  "item.armedandvaried.rose_gold_sword": "Rose Gold Sword",
+
+  "item.armedandvaried.rose_gold_helmet": "Rose Gold Helmet",
+  "item.armedandvaried.rose_gold_chestplate": "Rose Gold Chestplate",
+  "item.armedandvaried.rose_gold_leggings": "Rose Gold Leggings",
+  "item.armedandvaried.rose_gold_boots": "Rose Gold Boots",
+
+  "itemgroup.armedandvaried": "Armed and Varied"
+}

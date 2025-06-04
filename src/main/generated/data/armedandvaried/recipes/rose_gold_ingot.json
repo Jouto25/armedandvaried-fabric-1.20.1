@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "armedandvaried:rose_gold_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "armedandvaried:rose_gold_ingot"
+  }
+}
