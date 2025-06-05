@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-05T14:53:34.6083778	ArmedandVaried/Recipes
+// 1.20.1	2025-06-05T16:18:24.2274934	ArmedandVaried/Recipes
 93e138fff031cee66ac570f1d7faf60bb3976156 data\armedandvaried\recipes\copper_pickaxe.json
 a63d0b7fa507c9f05649ed11435b5117ea7ba3da data\armedandvaried\recipes\copper_chestplate.json
 a7a2649000da0123643a9073a9e078b6cb2e1ab5 data\armedandvaried\advancements\recipes\combat\amethyst_helmet.json
@@ -77,8 +77,8 @@ ff59b230143b0a1714dd8993808d8287d79531ea data\armedandvaried\recipes\copper_gold
 d2babf345a9b6046ab584a8f9f99044a59344d26 data\armedandvaried\recipes\amethyst_leggings.json
 54b17ddd11150998ad4f7b97c75c4e73a0bfcb9a data\armedandvaried\recipes\rose_gold_boots.json
 312c019fba68eb361db2997d879cfc0fbe627727 data\armedandvaried\recipes\leather_scrap.json
-3434475ea4b64acc9c1f6a1eaf7d8d7b87f57904 data\armedandvaried\recipes\rose_gold_axe.json
 b455f6be0eff609caf8a17e31c1d31ecb35a1216 data\armedandvaried\recipes\rose_gold_hoe.json
+3434475ea4b64acc9c1f6a1eaf7d8d7b87f57904 data\armedandvaried\recipes\rose_gold_axe.json
 8490aba9d4de137952e2b52bdf7092b4f9a386d7 data\armedandvaried\advancements\recipes\misc\rose_gold_ingot_from_blasting_copper_gold_mass.json
 99211917638e3f61c8bb8735af84004c27ca8193 data\armedandvaried\recipes\amethyst_shovel.json
 c5c764751cb1d40426a1a402d3bcf450f00da147 data\armedandvaried\advancements\recipes\combat\rose_gold_sword.json
