@@ -3,6 +3,7 @@ package net.jouto.armedandvaried.item;
 import net.jouto.armedandvaried.ArmedandVaried;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -10,8 +11,17 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ROSE_GOLD_INGOT("rose_gold", 15, new int[] {3, 8, 6, 3}, 10,
-            SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0f, 0f, () -> Ingredient.ofItems(ModItems.ROSE_GOLD_INGOT));
+    ROSE_GOLD_INGOT("rose_gold", 15, new int[] {3, 8, 6, 3},
+            10, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0f, 0f, () -> Ingredient.ofItems(ModItems.ROSE_GOLD_INGOT)),
+
+    COPPER_INGOT("copper", 15, new int[]{1, 4, 5, 2}, 7,
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+
+    AMETHYST_SHARD("amethyst", 20, new int[]{2, 5, 7, 3}, 9,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0f, 0f, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
+
+    EMERALD("emerald", 24, new int[]{3, 6, 7, 3}, 9,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1f, 0f, () -> Ingredient.ofItems(Items.EMERALD));
 
     private final String name;
     private final int durabilityMultiplier;
@@ -38,7 +48,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public int getDurability(ArmorItem.Type type) {
-        return BASE_DURABILITY[type.ordinal() * this.durabilityMultiplier];
+        return BASE_DURABILITY[type.ordinal()] * this.durabilityMultiplier;
     }
 
     @Override

@@ -40,5 +40,40 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ROSE_GOLD_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ROSE_GOLD_BOOTS));
 
+        itemModelGenerator.register(ModItems.COPPER_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_BOOTS));
+
+        itemModelGenerator.register(ModItems.AMETHYST_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMETHYST_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMETHYST_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMETHYST_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMETHYST_SWORD, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AMETHYST_BOOTS));
+
+        itemModelGenerator.register(ModItems.EMERALD_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_BOOTS));
+
+
+
     }
 }

@@ -1,12 +1,19 @@
 package net.jouto.armedandvaried.item;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    ROSE_GOLD_INGOT(250, 8.0f, 3f, 3, 14, () -> Ingredient.ofItems(ModItems.ROSE_GOLD_INGOT));
+    ROSE_GOLD_INGOT(250, 8.0f, 3f, 3, 14, () -> Ingredient.ofItems(ModItems.ROSE_GOLD_INGOT)),
+
+    COPPER_INGOT(191, 5.0f, 1f, 2, 12, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+
+    AMETHYST_SHARD(578, 6.0f, 2f, 3, 12, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
+
+    EMERALD(906, 7.0f, 2f, 3, 12, () -> Ingredient.ofItems(Items.EMERALD));
 
     private final int itemDurability;
     private final float miningSpeed;

@@ -21,5 +21,38 @@
   "item.armedandvaried.rose_gold_leggings": "Rose Gold Leggings",
   "item.armedandvaried.rose_gold_boots": "Rose Gold Boots",
 
+  "item.armedandvaried.copper_axe": "Copper Axe",
+  "item.armedandvaried.copper_hoe": "Copper Hoe",
+  "item.armedandvaried.copper_pickaxe": "Copper Pickaxe",
+  "item.armedandvaried.copper_shovel": "Copper Shovel",
+  "item.armedandvaried.copper_sword": "Copper Sword",
+
+  "item.armedandvaried.copper_helmet": "Copper Helmet",
+  "item.armedandvaried.copper_chestplate": "Copper Chestplate",
+  "item.armedandvaried.copper_leggings": "Copper Leggings",
+  "item.armedandvaried.copper_boots": "Copper Boots",
+
+  "item.armedandvaried.amethyst_axe": "Amethyst Axe",
+  "item.armedandvaried.amethyst_hoe": "Amethyst Hoe",
+  "item.armedandvaried.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.armedandvaried.amethyst_shovel": "Amethyst Shovel",
+  "item.armedandvaried.amethyst_sword": "Amethyst Sword",
+
+  "item.armedandvaried.amethyst_helmet": "Amethyst Helmet",
+  "item.armedandvaried.amethyst_chestplate": "Amethyst Chestplate",
+  "item.armedandvaried.amethyst_leggings": "Amethyst Leggings",
+  "item.armedandvaried.amethyst_boots": "Amethyst Boots",
+
+  "item.armedandvaried.emerald_axe": "Emerald Axe",
+  "item.armedandvaried.emerald_hoe": "Emerald Hoe",
+  "item.armedandvaried.emerald_pickaxe": "Emerald Pickaxe",
+  "item.armedandvaried.emerald_shovel": "Emerald Shovel",
+  "item.armedandvaried.emerald_sword": "Emerald Sword",
+
+  "item.armedandvaried.emerald_helmet": "Emerald Helmet",
+  "item.armedandvaried.emerald_chestplate": "Emerald Chestplate",
+  "item.armedandvaried.emerald_leggings": "Emerald Leggings",
+  "item.armedandvaried.emerald_boots": "Emerald Boots",
+
   "itemgroup.armedandvaried": "Armed and Varied"
 }
