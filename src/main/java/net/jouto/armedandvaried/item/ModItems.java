@@ -82,13 +82,17 @@ public class ModItems {
 
     /// Horse Armor
 
-    /// public static final Item NETHERITE_HORSE_ARMOR = new HorseArmorItem(13, "netherite_horse_armor", new FabricItemSettings().maxCount(1));
-    public static final Item ROSE_GOLD_HORSE_ARMOR = new HorseArmorItem(7, "rose_gold_horse_armor", new FabricItemSettings().maxCount(1));
+    public static final Item ROSE_GOLD_HORSE_ARMOR = registerItem("rose_gold_horse_armor", new HorseArmorItem(7, "rose_gold" , new FabricItemSettings().maxCount(1)));
+    public static final Item COPPER_HORSE_ARMOR = registerItem("copper_horse_armor", new HorseArmorItem(4, "copper" , new FabricItemSettings().maxCount(1)));
+    public static final Item AMETHYST_HORSE_ARMOR = registerItem("amethyst_horse_armor", new HorseArmorItem(8, "amethyst" , new FabricItemSettings().maxCount(1)));
+    public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor", new HorseArmorItem(10, "emerald" , new FabricItemSettings().maxCount(1)));
+    public static final Item NETHERITE_HORSE_ARMOR = registerItem("netherite_horse_armor", new HorseArmorItem(13, "netherite" , new FabricItemSettings().maxCount(1)));
 
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(ArmedandVaried.MOD_ID, name), item);
     }
+
 
     public static void registerModItems(){
         ArmedandVaried.LOGGER.info("Registrering Mod Items for " + ArmedandVaried.MOD_ID);

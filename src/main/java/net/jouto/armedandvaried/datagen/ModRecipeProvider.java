@@ -7,8 +7,10 @@ import net.jouto.armedandvaried.item.ModItems;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.SmithingTransformRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -384,6 +386,40 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('E', Items.EMERALD)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.EMERALD_BOOTS)));
+
+        ///  Horse Armor Recipes
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ROSE_GOLD_HORSE_ARMOR, 1)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("R R")
+                .input('R', ModItems.ROSE_GOLD_INGOT)
+                .criterion(hasItem(ModItems.ROSE_GOLD_INGOT), conditionsFromItem(ModItems.ROSE_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_GOLD_HORSE_ARMOR)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_HORSE_ARMOR, 1)
+                .pattern("C C")
+                .pattern("CCC")
+                .pattern("C C")
+                .input('C', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_HORSE_ARMOR)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMETHYST_HORSE_ARMOR, 1)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .input('A', Items.AMETHYST_SHARD)
+                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMETHYST_HORSE_ARMOR)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.EMERALD_HORSE_ARMOR, 1)
+                .pattern("E E")
+                .pattern("EEE")
+                .pattern("E E")
+                .input('E', Items.EMERALD)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.EMERALD_HORSE_ARMOR)));
 
 
         /// Shapeless Recipes

@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "armedandvaried",
 	"version": "${version}",
-	"name": "ArmedandVaried",
+	"name": "Armed and Varied",
 	"description": "A mod that adds new tiers of weapons and armor, alongside some QoL changes to existing armor for a smoother adventure!",
 	"authors": [
 		"Jouto"

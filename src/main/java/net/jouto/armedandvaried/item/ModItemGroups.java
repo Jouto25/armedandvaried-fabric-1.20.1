@@ -36,6 +36,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ROSE_GOLD_CHESTPLATE);
                         entries.add(ModItems.ROSE_GOLD_LEGGINGS);
                         entries.add(ModItems.ROSE_GOLD_BOOTS);
+                        entries.add(ModItems.ROSE_GOLD_HORSE_ARMOR);
 
                         entries.add(ModItems.COPPER_AXE);
                         entries.add(ModItems.COPPER_HOE);
@@ -47,6 +48,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_CHESTPLATE);
                         entries.add(ModItems.COPPER_LEGGINGS);
                         entries.add(ModItems.COPPER_BOOTS);
+                        entries.add(ModItems.COPPER_HORSE_ARMOR);
 
                         entries.add(ModItems.AMETHYST_AXE);
                         entries.add(ModItems.AMETHYST_HOE);
@@ -58,6 +60,7 @@ public class ModItemGroups {
                         entries.add(ModItems.AMETHYST_CHESTPLATE);
                         entries.add(ModItems.AMETHYST_LEGGINGS);
                         entries.add(ModItems.AMETHYST_BOOTS);
+                        entries.add(ModItems.AMETHYST_HORSE_ARMOR);
 
                         entries.add(ModItems.EMERALD_AXE);
                         entries.add(ModItems.EMERALD_HOE);
@@ -69,8 +72,9 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_CHESTPLATE);
                         entries.add(ModItems.EMERALD_LEGGINGS);
                         entries.add(ModItems.EMERALD_BOOTS);
+                        entries.add(ModItems.EMERALD_HORSE_ARMOR);
 
-                        entries.add(ModItems.ROSE_GOLD_HORSE_ARMOR);
+                        entries.add(ModItems.NETHERITE_HORSE_ARMOR);
 
                     }).build());
 
