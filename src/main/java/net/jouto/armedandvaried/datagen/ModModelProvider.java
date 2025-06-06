@@ -73,6 +73,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_BOOTS));
 
+        itemModelGenerator.register(ModItems.ROSE_GOLD_HORSE_ARMOR, Models.GENERATED);
+
 
 
     }

@@ -70,6 +70,8 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_LEGGINGS);
                         entries.add(ModItems.EMERALD_BOOTS);
 
+                        entries.add(ModItems.ROSE_GOLD_HORSE_ARMOR);
+
                     }).build());
 
     public static void registerItemGroups(){
